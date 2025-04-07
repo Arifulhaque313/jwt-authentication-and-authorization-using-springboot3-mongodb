@@ -1,0 +1,6 @@
+package com.api_authentication.api_authentication_and_authorization.repositories
+
+import com.api_authentication.api_authentication_and_authorization.models.User
+import org.springframework.data.mongodb.repository.MongoRepository
+
+interface UserRepository: MongoRepository<User, String>
